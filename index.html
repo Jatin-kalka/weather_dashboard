@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home | Weather Dashboard</title>
+    <style>
+        body {
+            font-family: 'Poppins', sans-serif;
+            margin: 0;
+            padding: 0;
+            background: linear-gradient(135deg, #1e3c72, #2a5298);
+            color: white;
+        }
+        
+        /* Navbar */
+        nav {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background-color: rgba(0, 0, 0, 0.5);
+            padding: 15px 50px;
+            position: sticky;
+            top: 0;
+            z-index: 100;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+            font-size: 18px;
+            transition: 0.3s;
+        }
+        nav a:hover {
+            color: #ff9800;
+        }
+
+        /* Hero Section */
+        .hero {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            height: 90vh;
+            text-align: center;
+            padding: 20px;
+        }
+        .hero h1 {
+            font-size: 3rem;
+            margin-bottom: 10px;
+        }
+        .hero p {
+            font-size: 1.2rem;
+            max-width: 600px;
+            line-height: 1.6;
+        }
+        .hero button {
+            padding: 15px 30px;
+            font-size: 18px;
+            background-color: #ff9800;
+            border: none;
+            color: white;
+            border-radius: 25px;
+            cursor: pointer;
+            margin-top: 20px;
+            transition: 0.3s;
+        }
+        .hero button:hover {
+            background-color: #e68900;
+        }
+
+        /* Features Section */
+        .features {
+            text-align: center;
+            padding: 50px 20px;
+            background: rgba(255, 255, 255, 0.1);
+            border-radius: 15px;
+            margin: 30px auto;
+            max-width: 900px;
+        }
+        .features h2 {
+            font-size: 2.2rem;
+        }
+        .features p {
+            font-size: 1.2rem;
+            max-width: 700px;
+            margin: auto;
+            line-height: 1.6;
+        }
+
+        /* Footer */
+        footer {
+            text-align: center;
+            padding: 20px;
+            background: rgba(0, 0, 0, 0.5);
+            margin-top: 30px;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Navigation Bar -->
+    <nav>
+        <div><strong>Weather App</strong></div>
+        <div>
+            <a href="index.html">Home</a>
+            <a href="dashboard.html">Weather Dashboard</a>
+            <a href="contact.html">Contact</a>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <h1>Welcome to Your Weather Dashboard</h1>
+        <p>Get real-time weather updates, forecasts, and more at your fingertips. Stay ahead of the weather anytime, anywhere.</p>
+        <button onclick="location.href='dashboard.html'">Get Started</button>
+    </section>
+
+    <!-- Features Section -->
+    <section class="features">
+        <h2>Why Use Our Weather App?</h2>
+        <p>☀️ Real-time weather updates</p>
+        <p>🌦️ 7-day weather forecasts</p>
+        <p>🌍 Supports multiple locations</p>
+        <p>⚡ Fast & easy to use</p>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2025 Weather Dashboard. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>

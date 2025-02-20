@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us | Weather Dashboard</title>
+    <style>
+        body {
+            font-family: 'Poppins', sans-serif;
+            margin: 0;
+            padding: 0;
+            background: linear-gradient(135deg, #1e3c72, #2a5298);
+            color: white;
+        }
+
+        /* Navbar */
+        nav {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background-color: rgba(0, 0, 0, 0.5);
+            padding: 15px 50px;
+            position: sticky;
+            top: 0;
+            z-index: 100;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+            font-size: 18px;
+            transition: 0.3s;
+        }
+        nav a:hover {
+            color: #ff9800;
+        }
+
+        /* Contact Section */
+        .contact-container {
+            text-align: center;
+            padding: 50px 20px;
+            max-width: 600px;
+            margin: auto;
+            background: rgba(255, 255, 255, 0.1);
+            border-radius: 15px;
+            margin-top: 50px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+            backdrop-filter: blur(10px);
+        }
+        .contact-container h2 {
+            font-size: 2.5rem;
+            margin-bottom: 10px;
+        }
+        .contact-container p {
+            font-size: 1.2rem;
+            margin-bottom: 20px;
+        }
+        
+        /* Form */
+        .contact-form input, 
+        .contact-form textarea {
+            width: 100%;
+            padding: 12px;
+            margin: 10px 0;
+            border: none;
+            border-radius: 25px;
+            text-align: center;
+            font-size: 16px;
+            background: rgba(255, 255, 255, 0.2);
+            color: white;
+        }
+        .contact-form input::placeholder,
+        .contact-form textarea::placeholder {
+            color: white;
+        }
+        .contact-form button {
+            padding: 12px 25px;
+            background: #ff9800;
+            color: white;
+            border: none;
+            border-radius: 25px;
+            cursor: pointer;
+            font-size: 16px;
+            transition: 0.3s;
+        }
+        .contact-form button:hover {
+            background: #e68900;
+        }
+
+        /* Social Links */
+        .social-links {
+            margin-top: 20px;
+        }
+        .social-links a {
+            margin: 0 10px;
+            color: white;
+            font-size: 24px;
+            text-decoration: none;
+            transition: 0.3s;
+        }
+        .social-links a:hover {
+            color: #ff9800;
+        }
+
+        /* Footer */
+        footer {
+            text-align: center;
+            padding: 20px;
+            background: rgba(0, 0, 0, 0.5);
+            margin-top: 30px;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Navigation Bar -->
+    <nav>
+        <div><strong>Weather App</strong></div>
+        <div>
+            <a href="index.html">Home</a>
+            <a href="dashboard.html">Weather Dashboard</a>
+            <a href="contact.html">Contact</a>
+        </div>
+    </nav>
+
+    <!-- Contact Section -->
+    <section class="contact-container">
+        <h2>Contact Us</h2>
+        <p>Have questions? Get in touch with us.</p>
+        <form class="contact-form">
+            <input type="text" placeholder="Your Name" required>
+            <input type="email" placeholder="Your Email" required>
+            <textarea placeholder="Your Message" rows="5" required></textarea>
+            <button type="submit">Send Message</button>
+        </form>
+
+        <!-- Social Links -->
+        <div class="social-links">
+            <p>Follow us on:</p>
+            <a href="#" target="_blank">🌍 Website</a>
+            <a href="#" target="_blank">📘 Facebook</a>
+            <a href="#" target="_blank">🐦 Twitter</a>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2025 Weather Dashboard. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
