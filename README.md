@@ -1,4 +1,3 @@
-Here's a README.md file for your Weather Dashboard Project:
 ________________________________________
 🌦️ Weather Dashboard
 A modern and interactive weather dashboard that provides real-time weather updates for any city.
@@ -31,7 +30,7 @@ ________________________________________
 ________________________________________
 📜 How to Use
 1️⃣ Clone the Repository
-git clone https://github.com/yourusername/weather-dashboard.git
+git clone https://github.com/jatinkalka/weather-dashboard.git
 cd weather-dashboard
 2️⃣ Open index.html in Your Browser
 3️⃣ Enter a City Name & Click "Get Weather"
@@ -50,17 +49,16 @@ ________________________________________
 📌 Home Page
 📌 Weather Dashboard
 📌 Contact Page
-(Add Screenshots Here)
 ________________________________________
 🤝 Contributing
 Want to improve this project? Fork it and submit a Pull Request! 🚀
 ________________________________________
 📩 Contact
-📧 Email: yourname@example.com
-🌐 Website: yourwebsite.com
-📘 GitHub: github.com/yourusername
+📧 Email: jatinkalka@example.com
+🌐 Website: jatinkalka.com
+📘 GitHub: github.com/jatinkalka
 ________________________________________
-📌 Made with ❤️ by [Your Name]
+📌 Made with ❤️ by jatinkalka
 ________________________________________
-Let me know if you'd like to add more sections! 🚀😊
+
 
